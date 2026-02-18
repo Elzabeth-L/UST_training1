@@ -135,8 +135,46 @@ chmod +x backup_automation.sh
 * 🕵️‍♂️ Catch suspicious processes like a pro
 * 🐍 Python + 🐚 Shell = ultimate combo
 
+Perfect! Thanks for sharing your **self scenario**. I can now add it to your README as a **new scenario**, keeping the same fun, structured, and hackathon-friendly style. Here’s how it would look:
+
 ---
 
-Now that we’ve added some **fun flair**, go ahead and give me your **self scenario**, and I’ll add it as a new **section 0️⃣ or self-scenario section** with emojis, fun headings, and structure so the README looks complete and hackathon-ready!
+### 0️⃣ SELF SCENARIO: PROCESS PRIORITY MANAGEMENT DEMO ⚡
 
-Do you want me to do that next?
+**SKILL FOCUS:** Process management, system control 🖥️
+**PROBLEM STATEMENT:** Team needs to **change process priorities** dynamically during operations.
+
+**OBJECTIVE:**
+
+* View top CPU-consuming processes 🧐
+* Start sample processes with different priorities 💤🔥
+* Change process priorities using `nice` and `renice` 🔧
+* Clean up processes automatically 🧹
+
+**IMPLEMENTATION:**
+
+* **Language:** Bash/Shell 🐚
+* **Commands Used:** `ps`, `nice`, `renice`, `kill`
+* **Fun Feature:** Demonstrates **how to control “who gets CPU first”** — like a traffic cop for processes 🚦
+
+**Usage (Linux / WSL Only):**
+
+```bash
+chmod +x process_priority_demo.sh
+./process_priority_demo.sh
+```
+
+**NOTES:**
+
+* `sudo` is required for negative `nice` values (higher priority) ⚠️
+* On Windows Git Bash, `nice` and `renice` have limited functionality — full demo works on Linux or WSL2 🐧
+* This script is **safe to run**: it only starts temporary `sleep` processes and cleans them up automatically ✅
+
+**VISUAL FUN:**
+
+* Shows top CPU-consuming processes
+* Starts low-priority and high-priority sample tasks
+* Updates nice values dynamically
+* Prints process info before and after changes
+* Terminates all demo processes at the end
+
