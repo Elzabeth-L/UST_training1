@@ -21,3 +21,4 @@ else
     echo "OK: Disk usage under threshold."
     echo "Status logged"
 fi
+
