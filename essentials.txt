@@ -1,2 +1,3 @@
 https://github.com/El-zabeth/To-do-list-app.git
 https://github.com/codewithsadee/grilli.git
+cp -r project-name/* /var/www/html/project2/
